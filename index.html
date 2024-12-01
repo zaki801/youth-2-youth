@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <img src="Main Logo (9).png" style="width: 200px;" alt="Logo" class="logo">
+        </header>
+        
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form id="signUpForm">
+                <input type="text" id="username" placeholder="Name*" required>
+                <p class="error" id="usernameError"> </p>
+
+                
+                <input type="text" id="phone" placeholder="Phone Number*" required>
+                 
+                <!-- <span id="phoneError" class="error"></span> -->
+
+                <input type="email" id="email" placeholder="Email*" required>
+                <p class="error" id="emailError"></p>
+                
+                <input type="text" id="address" placeholder="Address*" required>
+                
+                <div class="input-group">
+                    <select id="gender" required>
+                        <option value="">Select Gender*</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <span id="genderError" class="error"></span>
+                </div>
+    
+                <input type="password" id="password" placeholder="Password*" required>
+                <p class="error" id="passwordError"></p>
+                
+                <input type="password" id="confirmPassword" placeholder="Confirm Password*" required>
+                <p class="error" id="confirmPasswordError"></p>
+                
+                <button type="submit">Sign Up</button>
+            </form>
+            <p class="login-link">Already have account? <a href="login.html">Login</a></p>
+        </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
